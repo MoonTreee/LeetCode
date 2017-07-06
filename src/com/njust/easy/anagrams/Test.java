@@ -10,7 +10,15 @@ public class Test {
         String p = "ab";
         List<Integer> result = solution.findAnagrams(s,p);
         for(int i=0;i<result.size();i++){
-            System.out.println(result.get(i).toString());
+            System.out.print(result.get(i).toString());
+        }
+        System.out.println();
+
+        System.out.println("标准答案的：");
+        LeetSolution leetSolution = new LeetSolution();
+        List<Integer> lr = leetSolution.findAnagrams(s,p);
+        for(int i=0;i<lr.size();i++){
+            System.out.print(lr.get(i).toString());
         }
     }
 }
