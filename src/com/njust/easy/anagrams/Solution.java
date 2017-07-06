@@ -22,8 +22,12 @@ import java.util.Map;
  * 思路：
  * 1.对于p，建立char-int键值对记录每个字母出现的次数，保存在pDic中；
  * 2.遍历s，每次取出和p等长的字符串，做同样操作生成sDic，并做对比
+ *
+ *-----
+ * 看了discuss里面大神的答案  体会差距了！我的方法虽然说可以实现 但是效率太低了！
+ *
  */
-public class Solution {
+public class  Solution {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result =new ArrayList<>();
         int pLen = p.length();
