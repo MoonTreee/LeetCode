@@ -16,7 +16,7 @@ package com.njust.easy.hammingdistance;
  *
  * 好吧 又被leetcode上的答案惊艳到了！
  */
-public class Sulotion {
+public class Solution {
     public int hammingDistance(int x, int y) {
         int result=0;
         int[] xVal = new int[32];
