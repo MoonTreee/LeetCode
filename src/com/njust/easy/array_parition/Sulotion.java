@@ -1,4 +1,4 @@
-package com.njust.easy.arrayparition;
+package com.njust.easy.array_parition;
 
 /**
  * Created by trey on 17-7-7.

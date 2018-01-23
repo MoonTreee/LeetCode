@@ -1,4 +1,4 @@
-package com.njust.easy.numcomplement;
+package com.njust.easy.num_complement;
 
 /**
  * Created by trey on 17-7-7.

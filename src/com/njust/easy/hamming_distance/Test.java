@@ -1,11 +1,11 @@
-package com.njust.easy.hammingdistance;
+package com.njust.easy.hamming_distance;
 
 /**
  * Created by trey on 17-7-7.
  */
 //public class Test {
 //    public static void main(String[] args) {
-//        Sulotion sulotion =new Sulotion();
+//        Solution sulotion =new Solution();
 //        LeetSulotion leetSulotion =new LeetSulotion();
 //        int x =13;
 //        int y = 9;

@@ -1,4 +1,4 @@
-package com.njust.easy.hammingdistance;
+package com.njust.easy.hamming_distance;
 
 /**
  * Created by trey on 17-7-7.

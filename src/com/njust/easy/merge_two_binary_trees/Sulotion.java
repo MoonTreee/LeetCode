@@ -1,4 +1,4 @@
-package com.njust.easy.mergetwobinarytrees;
+package com.njust.easy.merge_two_binary_trees;
 
 import javax.swing.tree.TreeNode;
 
