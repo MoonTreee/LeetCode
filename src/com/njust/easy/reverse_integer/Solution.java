@@ -1,4 +1,8 @@
 package com.njust.easy.reverse_integer;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
 /**
  * Given a 32-bit signed integer, reverse digits of an integer.
  * Assume we are dealing with an environment which could only hold integers within
@@ -54,8 +58,15 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        int x = -214748364;
-        System.out.println(solution.reverse(x));
+//        Solution solution = new Solution();
+//        int x = -214748364;
+//        System.out.println(solution.reverse(x));
+        HashSet hashSet = new HashSet();
+        hashSet.add(1);
+        hashSet.add(2);
+        for (Object obj:hashSet){
+            System.out.println(obj.toString());
+        }
+
     }
 }

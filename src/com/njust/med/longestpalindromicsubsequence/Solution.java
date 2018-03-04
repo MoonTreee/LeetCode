@@ -18,6 +18,17 @@ public class Solution {
      *例如："aabaaba"
      *第一次截取：abaab，没毛病
      *第二次截取：ba 或者 aa，两种截取方式产生结果不同
+     *
+     *
+     *
+     * longestPalindromeSubseqTop()为leetcode高赞解法，非常美妙，其中心思想是利用矩阵记录最长回文长度,
+     * 并采用动态规划迭代进行。
+     * 例如：dp[2][6]就是子字符串s.substring(2,7)的最大回文长度
+     * 对于dp[i][j]：
+     * 1.如果s[i] == s[j],那么dp[i][j] = dp[i+1][j-1] + 2  之所以为i+1，是因为i是从s.length-1开始到0；
+     * 2.如果s[i] != s[j],那么dp[i][j] = Math.max(dp[i+1][j], dp[i][j-1])
+     *
+     * 由此，dp[0][s.length-1]就是最终答案了。
      */
     public int longestPalindromeSubseq(String s) {
         int result = 0;
